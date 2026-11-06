@@ -1,12 +1,5 @@
 # Artiosis — Digital Solutions
 
-[![Artiosis homepage screenshot](https://image.thum.io/get/width/1200/https://artiosis-two.vercel.app/)](https://artiosis-two.vercel.app/)
-
-**[Live website](https://artiosis-two.vercel.app/)** · **[Source repository](https://github.com/JFUIX/artiosis)**
-
-> Preview is rendered from the live website. A fixed screenshot can replace this once `screenshots/homepage.png` is uploaded.
-
-
 Responsive Next.js 15 / React 19 / TypeScript agency website. Dark glassmorphism with the existing Artiosis teal `#096162`.
 
 ## Run
