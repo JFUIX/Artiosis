@@ -348,4 +348,22 @@ function draw(now){
 }
 requestAnimationFrame(draw);
 })();
-</script><script id="light-origin-position">(()=>{const orbit=document.querySelector('.art-orbit');if(!orbit)return;function position(){const r=orbit.getBoundingClientRect();document.documentElement.style.setProperty('--light-x',(r.left+r.width/2)+'px');document.documentElement.style.setProperty('--light-y',(r.top+r.height/2)+'px')}position();window.addEventListener('resize',position,{passive:true})})();</script></body></html>
+</script><style id="stationary-hero-light">
+/* Keep the glowing light attached to the orbital artwork, not the viewport. */
+.hero .arriving-light{position:absolute;left:var(--hero-light-x,75%);top:var(--hero-light-y,42%);z-index:3}
+@keyframes opt-flight{from{transform:translate3d(calc(100vw - var(--hero-light-x,75vw) + 65px),-50%,0) translateX(-50%) scale(.8)}to{transform:translate3d(0,-50%,0) translateX(-50%) scale(1.2)}}
+</style><script id="light-origin-position">(()=>{
+const orbit=document.querySelector('.art-orbit'),hero=document.querySelector('.hero'),dot=document.querySelector('.arriving-light');
+if(!orbit||!hero||!dot)return;
+hero.appendChild(dot);
+function position(){
+ const r=orbit.getBoundingClientRect(),hr=hero.getBoundingClientRect();
+ const x=r.left+r.width/2,y=r.top+r.height/2;
+ hero.style.setProperty('--hero-light-x',(x-hr.left)+'px');
+ hero.style.setProperty('--hero-light-y',(y-hr.top)+'px');
+ document.documentElement.style.setProperty('--light-x',x+'px');
+ document.documentElement.style.setProperty('--light-y',y+'px');
+}
+position();
+window.addEventListener('resize',position,{passive:true});
+})();</script></body></html>
