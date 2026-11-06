@@ -2,3 +2,6 @@
 /* Artiosis wordmark: no leading icon, teal terminal period */
 .logo{display:inline-flex;align-items:baseline;gap:0;white-space:nowrap;letter-spacing:-1.5px}
 .logo .logo-dot{color:#096162}
+
+/* Override legacy logo tile styles: the period must be plain inline text. */
+.logo .logo-dot{display:inline!important;background:transparent!important;padding:0!important;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;color:#096162!important;font-size:inherit!important;font-weight:inherit!important;line-height:inherit!important;letter-spacing:inherit!important}
