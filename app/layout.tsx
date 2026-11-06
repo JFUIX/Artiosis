@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import "./globals.css";export const metadata:Metadata={title:"Artiosis | Digital Solutions",description:"Artiosis creates websites, brands and digital solutions for ambitious businesses worldwide."};export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
