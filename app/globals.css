@@ -71,3 +71,13 @@ body::before{content:"";position:fixed;inset:0;z-index:3;pointer-events:none;opa
 @media(max-width:440px){.hero-grid,.work-grid,.services-grid{min-width:0}.floating-card{width:min(100%,320px)}.work-card{min-width:0}.work-meta{gap:8px}.work-meta>div{min-width:0}.work-meta h3,.work-meta p{overflow-wrap:anywhere}}
 @media(hover:none){.btn-primary:hover{transform:none;box-shadow:0 0 24px rgba(52,211,153,.23)}}
 @media(prefers-reduced-motion:reduce){.scroll-reveal{opacity:1!important;transform:none!important;transition:none!important}.btn-primary::before{display:none!important}body::before{opacity:.02}}
+
+
+/* Step 1: approved prototype's premium CTA button behavior */
+.btn-primary{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(105deg,#34d399,#84e9db,#22d3ee);color:#071a19;border:0;box-shadow:0 0 24px rgba(52,211,153,.23);transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s cubic-bezier(.16,1,.3,1)}
+.btn-primary:hover{background:linear-gradient(105deg,#34d399,#84e9db,#22d3ee);color:#071a19;transform:translateY(-3px);box-shadow:0 0 36px rgba(52,211,153,.45)}
+.btn-primary:active{transform:scale(.96)}
+.btn-primary::before{content:"";position:absolute;inset:0 auto 0 0;width:45%;background:rgba(255,255,255,.3);transform:translateX(-150%) skewX(-15deg);transition:transform 1s cubic-bezier(.16,1,.3,1);pointer-events:none;z-index:0}
+.btn-primary:hover::before{transform:translateX(350%) skewX(-15deg)}
+.btn-primary>svg,.btn-primary>span{position:relative;z-index:1}
+@media(prefers-reduced-motion:reduce){.btn-primary::before{display:none}.btn-primary,.btn-primary:hover{transition:none;transform:none}}
