@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://artiosis-two.vercel.app/sitemap.xml
