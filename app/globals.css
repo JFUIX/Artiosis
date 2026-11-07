@@ -81,3 +81,15 @@ body::before{content:"";position:fixed;inset:0;z-index:3;pointer-events:none;opa
 .btn-primary:hover::before{transform:translateX(350%) skewX(-15deg)}
 .btn-primary>svg,.btn-primary>span{position:relative;z-index:1}
 @media(prefers-reduced-motion:reduce){.btn-primary::before{display:none}.btn-primary,.btn-primary:hover{transition:none;transform:none}}
+
+
+/* Approved Artiosis hero CTA refinement — scoped to Let's build together only. */
+.hero-actions .hero-primary-cta{display:inline-flex;align-items:center;justify-content:center;gap:20px;min-height:52px;padding:6px 7px 6px 22px;border:1px solid #c8fff2;border-radius:100px;background:linear-gradient(110deg,#34d399,#9df5de 48%,#22d3ee);color:#071a19;font-weight:750;box-shadow:inset 0 2px 2px #ffffff80,inset 0 -2px 3px #0c7b7966,0 8px 25px #34d39944;transition:transform .4s cubic-bezier(.16,1,.3,1),box-shadow .4s}
+.hero-actions .hero-primary-cta:hover{background:linear-gradient(110deg,#34d399,#9df5de 48%,#22d3ee);color:#071a19;transform:translateY(-3px);box-shadow:inset 0 2px 2px #ffffffbb,0 12px 32px #34d39988,0 0 30px #22d3ee55}
+.hero-actions .hero-primary-cta:active{transform:scale(.97)}
+.hero-actions .hero-primary-cta::before{inset:0 auto 0 0;width:38%;background:linear-gradient(90deg,transparent,#ffffff99,transparent);transform:translateX(-200%) skewX(-18deg);transition:transform .8s ease}
+.hero-actions .hero-primary-cta:hover::before{transform:translateX(390%) skewX(-18deg)}
+.hero-actions .hero-primary-cta .hero-primary-arrow{position:relative;z-index:1;width:37px;height:37px;flex:none;display:flex;align-items:center;justify-content:center;border-radius:50%;background:linear-gradient(140deg,#e8fff6,#4ad9d2);border:1px solid #ffffffb0;box-shadow:inset 0 1px #ffffffbb;transition:transform .4s cubic-bezier(.16,1,.3,1)}
+.hero-actions .hero-primary-cta:hover .hero-primary-arrow{transform:translate(2px,-2px)}
+@media(hover:none){.hero-actions .hero-primary-cta:hover{transform:none;box-shadow:inset 0 2px 2px #ffffff80,inset 0 -2px 3px #0c7b7966,0 8px 25px #34d39944}}
+@media(prefers-reduced-motion:reduce){.hero-actions .hero-primary-cta,.hero-actions .hero-primary-cta .hero-primary-arrow{transition:none}.hero-actions .hero-primary-cta:hover,.hero-actions .hero-primary-cta:hover .hero-primary-arrow{transform:none}.hero-actions .hero-primary-cta::before{display:none}}
