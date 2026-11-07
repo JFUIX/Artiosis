@@ -39,3 +39,35 @@ body{background:#080d0e}
 @media(max-width:440px){.hero h1{overflow-wrap:normal;font-size:clamp(43px,11.5vw,62px)}.eyebrow{font-size:9px;letter-spacing:1.3px}.floating-title{font-size:clamp(39px,12vw,50px);letter-spacing:-3px}.work-visual{min-width:0}.mock-word{font-size:clamp(24px,8vw,32px)}}
 @media(hover:none){.btn:hover,.service:hover,.work-card:hover{transform:none}.service::before,.work-card::before,.proof-panel::before,.contact-form::before,.floating-card::before,.value-list>div::before,.faq-item::before,.contact-options a::before{display:none}}
 @media(prefers-reduced-motion:reduce){.btn,.service,.work-card,.work-visual{will-change:auto}.btn-primary::before{display:none}.spotlight-active::before{opacity:0}}
+
+
+/* Prototype fidelity pass: button lighting, editorial motion, grain and cards */
+:root{--ease-spring:cubic-bezier(.16,1,.3,1);--prototype-line:rgba(255,255,255,.08)}
+body{background:#080b0d;overflow-x:clip}
+body::before{content:"";position:fixed;inset:0;z-index:3;pointer-events:none;opacity:.03;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.8'/%3E%3C/svg%3E")}
+.btn{min-height:49px;padding:0 23px;border-radius:999px;gap:12px;transition:transform .35s var(--ease-spring),box-shadow .35s var(--ease-spring),background .35s,border-color .35s;overflow:hidden}
+.btn-primary{color:#071a19;border:0;background:linear-gradient(105deg,#34d399,#84e9db,#22d3ee);box-shadow:0 0 24px rgba(52,211,153,.23)}
+.btn-primary:hover{color:#071a19;background:linear-gradient(105deg,#34d399,#84e9db,#22d3ee);transform:translateY(-3px);box-shadow:0 0 36px rgba(52,211,153,.45)}
+.btn-primary:active{transform:scale(.96)}
+.btn-primary::before{content:"";position:absolute;top:0;bottom:0;left:0;width:45%;background:rgba(255,255,255,.3);transform:translateX(-150%) skewX(-15deg);transition:transform 1s var(--ease-spring);pointer-events:none;z-index:0}
+.btn-primary:hover::before{left:0;transform:translateX(350%) skewX(-15deg)}
+.btn-primary>*{position:relative;z-index:1}
+.btn-ghost{background:rgba(22,27,29,.7);color:#d3dedb;border:1px solid rgba(255,255,255,.12);box-shadow:none;backdrop-filter:blur(12px);font-weight:500}
+.btn-ghost:hover{background:rgba(40,49,50,.65);color:#fff;border-color:rgba(255,255,255,.3);box-shadow:none}
+.btn-ghost::before{display:none}
+.hero h1{letter-spacing:-.065em}
+.section h2{letter-spacing:-.055em}
+.kicker,.eyebrow{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-weight:600;letter-spacing:.2em;text-transform:uppercase}
+.service{background:rgba(18,22,23,.72);border:1px solid var(--prototype-line);border-radius:19px;overflow:hidden;transition:transform .55s var(--ease-spring),border-color .35s}
+.service:hover{transform:translateY(-6px);border-color:rgba(255,255,255,.18)}
+.service::before,.work-card::before{background:radial-gradient(450px circle at var(--mouse-x,-500px) var(--mouse-y,-500px),rgba(52,211,153,.13),transparent 80%);transition:opacity .3s}
+.work-card{border:1px solid var(--prototype-line);border-radius:20px;padding:10px;transition:transform .55s var(--ease-spring),border-color .35s,box-shadow .35s}
+.work-card:hover{transform:translateY(-6px);border-color:rgba(255,255,255,.18);box-shadow:0 16px 45px rgba(0,0,0,.2)}
+.work-card::before{border-radius:20px}
+.work-card .work-visual{position:relative}
+.scroll-reveal{opacity:0;transform:translateY(24px);transition:opacity .7s var(--ease-spring),transform .7s var(--ease-spring);transition-delay:var(--reveal-delay,0ms)}
+.scroll-reveal.is-visible{opacity:1;transform:translateY(0)}
+@media(max-width:700px){.btn{min-height:46px}.work-card{padding:7px}.section h2{overflow-wrap:break-word}.hero-grid{overflow:visible}}
+@media(max-width:440px){.hero-grid,.work-grid,.services-grid{min-width:0}.floating-card{width:min(100%,320px)}.work-card{min-width:0}.work-meta{gap:8px}.work-meta>div{min-width:0}.work-meta h3,.work-meta p{overflow-wrap:anywhere}}
+@media(hover:none){.btn-primary:hover{transform:none;box-shadow:0 0 24px rgba(52,211,153,.23)}}
+@media(prefers-reduced-motion:reduce){.scroll-reveal{opacity:1!important;transform:none!important;transition:none!important}.btn-primary::before{display:none!important}body::before{opacity:.02}}
