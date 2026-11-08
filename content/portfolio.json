@@ -1,5 +1,21 @@
 [
   {
+    "slug": "forma",
+    "name": "A little more intention.",
+    "label": "Forma / Website design study",
+    "category": "Web & UI",
+    "desc": "An original website study pairing deep ink tones, warm peach accents, editorial typography, and a responsive page structure.",
+    "focus": "Visual hierarchy and responsive layout with an ink-and-peach palette that complements Artiosis without repeating its colors.",
+    "details": [
+      "Desktop experience",
+      "Mobile experience"
+    ],
+    "featured": true,
+    "kind": "design-study",
+    "image": "/projects/forma/cover.webp",
+    "prototype": "/prototypes/forma.html"
+  },
+  {
     "slug": "orange-navy-identity",
     "name": "Bold by design.",
     "label": "Brand identity & packaging",
@@ -145,7 +161,7 @@
         1
       ]
     ],
-    "featured": true,
+    "featured": false,
     "kind": "project",
     "image": "/projects/night-travel/cover.webp"
   },
@@ -276,27 +292,11 @@
     "image": "/projects/labarre-social/detail-1.webp"
   },
   {
-    "slug": "forma",
-    "name": "A little more intention.",
-    "label": "Forma / Website design study",
-    "category": "Web & UI",
-    "desc": "An original website study pairing natural green tones, editorial typography, and a clear, responsive page structure.",
-    "focus": "Visual hierarchy, responsive layout, and an editorial direction within the Artiosis color family.",
-    "details": [
-      "Desktop experience",
-      "Mobile experience"
-    ],
-    "featured": false,
-    "kind": "design-study",
-    "image": "/projects/forma/cover.webp",
-    "prototype": "/prototypes/forma.html"
-  },
-  {
     "slug": "relay",
     "name": "More focus. Less friction.",
     "label": "Relay / AI workspace study",
     "category": "AI & Automation",
-    "desc": "An interactive AI workspace interface exploring a calmer way to organize priorities, prompts, and daily work.",
+    "desc": "An interactive AI workspace interface using a midnight-blue foundation, soft lavender accents, and clear daily priorities.",
     "focus": "Clear priorities, focused conversations, and a structured workspace. All interactions and data are illustrative.",
     "details": [
       "Desktop workspace",
