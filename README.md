@@ -14,17 +14,16 @@ The homepage pairs a bold headline and animated orbital artwork with an interact
 
 [![Artiosis homepage hero and interactive services showcase](screenshots/artiosis-01-hero-services.webp)](https://artiosis-two.vercel.app/)
 
-### Client experience & clear answers
+### Contact & project inquiry
 
-Client testimonials and a compact FAQ bring the agency’s communication style and responsive interface into focus.
+A clear contact section brings email, Instagram, LinkedIn, and a guided project inquiry form together in one responsive layout.
 
-[![Artiosis client testimonials and frequently asked questions](screenshots/artiosis-02-clients-faq.webp)](https://artiosis-two.vercel.app/#testimonials)
+[![Artiosis contact options and project inquiry form](screenshots/artiosis-02-contact-inquiry.webp)](https://artiosis-two.vercel.app/#contact)
 
 ## Features
 
 - Responsive desktop, tablet, and mobile layouts.
 - Three interactive service pillars, animated backgrounds, and satin-style button interactions.
-- Client testimonials and expandable FAQs.
 - Email inquiry preparation, social links, and a floating WhatsApp contact panel.
 - Published Privacy Policy and Terms & Conditions.
 - Search metadata, social sharing image, sitemap, and favicon assets.
