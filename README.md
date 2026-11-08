@@ -4,7 +4,7 @@ Turning ambitious ideas into digital experiences.
 
 A responsive agency website that brings **Web Experiences**, **AI & Automation**, and **Creative Solutions** together in one dark, teal-accented identity.
 
-[View the live website](https://artiosis-two.vercel.app/) · [Explore the packages](https://artiosis-two.vercel.app/#pricing)
+[View the live website](https://artiosis-two.vercel.app/)
 
 ## Project showcase
 
@@ -14,18 +14,17 @@ The homepage pairs a bold headline and animated orbital artwork with an interact
 
 [![Artiosis homepage hero and interactive services showcase](screenshots/artiosis-01-hero-services.webp)](https://artiosis-two.vercel.app/)
 
-### Selected work & clear packages
+### Client experience & clear answers
 
-Real portfolio work, a defined project process, and four packages for websites, branding, and ongoing social media marketing. Prices switch between USD and GBP.
+Client testimonials and a compact FAQ bring the agency’s communication style and responsive interface into focus.
 
-[![Artiosis Labarre portfolio project, delivery process, and four service packages](screenshots/artiosis-02-work-packages.webp)](https://artiosis-two.vercel.app/#work)
+[![Artiosis client testimonials and frequently asked questions](screenshots/artiosis-02-clients-faq.webp)](https://artiosis-two.vercel.app/#testimonials)
 
 ## Features
 
 - Responsive desktop, tablet, and mobile layouts.
 - Three interactive service pillars, animated backgrounds, and satin-style button interactions.
-- Labarre portfolio showcase, client testimonials, and expandable FAQs.
-- Four service packages with USD/GBP switching and inquiry selection.
+- Client testimonials and expandable FAQs.
 - Email inquiry preparation, social links, and a floating WhatsApp contact panel.
 - Published Privacy Policy and Terms & Conditions.
 - Search metadata, social sharing image, sitemap, and favicon assets.
