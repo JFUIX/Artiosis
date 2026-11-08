@@ -78,3 +78,14 @@ The form opens a `mailto:` message with the visitor’s project details. The vis
 The repository is connected to Vercel. Changes pushed to `main` trigger a production build; they appear on the live website once the deployment is ready.
 
 Production URL: [artiosis-two.vercel.app](https://artiosis-two.vercel.app/).
+
+## Adding portfolio projects
+
+The homepage displays up to six featured projects. The full collection lives at [`/work.html`](https://artiosis-two.vercel.app/work.html).
+
+1. Add project images under `public/projects/<project-slug>/`: `cover.webp` and numbered detail images.
+2. Add an entry to `content/portfolio.json`, including its category, description, detail captions, and image path. Set `featured` to `false` for archive-only projects. Use `kind: "design-study"` for new prototypes.
+3. Run `npm run portfolio` to regenerate the homepage selection, portfolio archive, case-study pages, and sitemap. This also runs automatically before `npm run build`.
+4. Check desktop and mobile layouts before publishing.
+
+Interactive design studies live in `public/prototypes/`. They demonstrate interface behavior with illustrative data and do not connect to a live AI service.

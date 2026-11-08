@@ -1,0 +1,310 @@
+[
+  {
+    "slug": "orange-navy-identity",
+    "name": "Bold by design.",
+    "label": "Brand identity & packaging",
+    "category": "Branding",
+    "file": "brand4.jpg",
+    "desc": "A distinctive orange-and-navy identity expressed through packaging, stationery, and illustrated brand details.",
+    "focus": "Contrast, consistency, and a playful visual language.",
+    "details": [
+      "Packaging & printed materials",
+      "Identity details"
+    ],
+    "crops": [
+      [
+        0,
+        0,
+        0.58,
+        0.72
+      ],
+      [
+        0.48,
+        0.1,
+        1,
+        0.85
+      ]
+    ],
+    "featured": true,
+    "kind": "project",
+    "image": "/projects/orange-navy-identity/cover.webp"
+  },
+  {
+    "slug": "plant-shop-app",
+    "name": "A little more green.",
+    "label": "Plant shop / App interface",
+    "category": "Web & UI",
+    "file": "app2.jpg",
+    "desc": "A light, botanical shopping interface that brings discovery and product information into one visual system.",
+    "focus": "A calm browsing experience with clear product hierarchy.",
+    "details": [
+      "Browse & discover",
+      "Product detail"
+    ],
+    "crops": [
+      [
+        0.15,
+        0.08,
+        0.52,
+        0.96
+      ],
+      [
+        0.5,
+        0.08,
+        0.9,
+        0.96
+      ]
+    ],
+    "featured": true,
+    "kind": "project",
+    "image": "/projects/plant-shop-app/cover.webp"
+  },
+  {
+    "slug": "food-ordering-app",
+    "name": "Designed to delight.",
+    "label": "Food ordering / App interface",
+    "category": "Web & UI",
+    "file": "app6.jpg",
+    "desc": "A colorful mobile interface pairing food discovery with focused product information and clear purchase actions.",
+    "focus": "Appetizing imagery, consistent controls, and a distinct visual rhythm.",
+    "details": [
+      "Food discovery",
+      "Product & purchase"
+    ],
+    "crops": [
+      [
+        0.1,
+        0.05,
+        0.49,
+        0.97
+      ],
+      [
+        0.48,
+        0.08,
+        0.98,
+        0.98
+      ]
+    ],
+    "featured": false,
+    "kind": "project",
+    "image": "/projects/food-ordering-app/cover.webp"
+  },
+  {
+    "slug": "labarre",
+    "name": "Read. Drink. Discover.",
+    "label": "Labarre / Brand identity",
+    "category": "Branding",
+    "file": "brand1.jpg",
+    "desc": "Muted color, geometric pattern, and thoughtful typography connect a bookstore-and-caf\u00e9 stationery collection.",
+    "focus": "A recognizable identity across everyday print touchpoints.",
+    "details": [
+      "Notebook & identity",
+      "Pattern & stationery"
+    ],
+    "crops": [
+      [
+        0.1,
+        0.02,
+        0.48,
+        0.65
+      ],
+      [
+        0.44,
+        0.03,
+        0.95,
+        0.94
+      ]
+    ],
+    "featured": true,
+    "kind": "project",
+    "image": "/projects/labarre/cover.webp"
+  },
+  {
+    "slug": "night-travel",
+    "name": "A moment after dark.",
+    "label": "Night travel / Illustration",
+    "category": "Illustration",
+    "file": "illust3.jpg",
+    "desc": "A quiet travel scene built from deep blue, warm light, and expressive landscape textures.",
+    "focus": "Mood, light, and composition working together to tell a visual story.",
+    "details": [
+      "The central scene",
+      "Light & landscape"
+    ],
+    "crops": [
+      [
+        0.3,
+        0.25,
+        0.92,
+        0.92
+      ],
+      [
+        0,
+        0.15,
+        0.58,
+        1
+      ]
+    ],
+    "featured": true,
+    "kind": "project",
+    "image": "/projects/night-travel/cover.webp"
+  },
+  {
+    "slug": "curious",
+    "name": "Made to be curious.",
+    "label": "Curious / Logo identity",
+    "category": "Branding",
+    "file": "logo3.jpg",
+    "desc": "A characterful symbol combines a bold letterform with a playful animal silhouette and contrasting color.",
+    "focus": "A compact identity with a recognizable shape and friendly personality.",
+    "details": [
+      "Symbol detail",
+      "Wordmark & composition"
+    ],
+    "crops": [
+      [
+        0.2,
+        0.2,
+        0.82,
+        0.73
+      ],
+      [
+        0.15,
+        0.45,
+        0.85,
+        0.87
+      ]
+    ],
+    "featured": false,
+    "kind": "project",
+    "image": "/projects/curious/cover.webp"
+  },
+  {
+    "slug": "promptopia",
+    "name": "Ideas, made discoverable.",
+    "label": "Promptopia / AI & Automation",
+    "category": "AI & Automation",
+    "file": "web3.png",
+    "desc": "A focused platform interface for discovering, creating, and sharing AI prompts.",
+    "focus": "Clear hierarchy and a focused entry point for browsing prompts.",
+    "details": [
+      "Headline & visual hierarchy",
+      "Search & discovery"
+    ],
+    "crops": [
+      [
+        0.02,
+        0.08,
+        0.98,
+        0.63
+      ],
+      [
+        0.02,
+        0.42,
+        0.98,
+        0.93
+      ]
+    ],
+    "featured": true,
+    "kind": "project",
+    "image": "/projects/promptopia/cover.webp"
+  },
+  {
+    "slug": "resorsify",
+    "name": "Clarity for digital work.",
+    "label": "Resorsify / Website design",
+    "category": "Web & UI",
+    "file": "web5.png",
+    "desc": "A purple-led landing page combines an illustrated product story with clear navigation and contrasting calls to action.",
+    "focus": "A strong first impression built from color, scale, and visual storytelling.",
+    "details": [
+      "Navigation & hero",
+      "Illustration & action"
+    ],
+    "crops": [
+      [
+        0,
+        0.2,
+        1,
+        0.77
+      ],
+      [
+        0.3,
+        0.3,
+        1,
+        0.86
+      ]
+    ],
+    "featured": false,
+    "kind": "project",
+    "image": "/projects/resorsify/cover.webp"
+  },
+  {
+    "slug": "food-social",
+    "name": "A brand with appetite.",
+    "label": "Food brand / Social media",
+    "category": "Social media",
+    "file": null,
+    "desc": "A coordinated social campaign combining bold color, food illustration, and concise brand messaging.",
+    "focus": "A consistent palette, concise headlines, and food-led illustration.",
+    "details": [
+      "Brand introduction",
+      "Product story",
+      "Campaign message"
+    ],
+    "extension": true,
+    "featured": false,
+    "kind": "project",
+    "image": "/projects/food-social/detail-1.webp"
+  },
+  {
+    "slug": "labarre-social",
+    "name": "Stories worth sharing.",
+    "label": "Labarre / Social media",
+    "category": "Social media",
+    "file": null,
+    "desc": "A coordinated social campaign bringing Labarre\u2019s literary character, muted palette, and geometric patterns into the feed.",
+    "focus": "Literary typography, geometric pattern, and a connected visual rhythm.",
+    "details": [
+      "Brand story",
+      "Discovery message",
+      "Community message"
+    ],
+    "extension": true,
+    "featured": true,
+    "kind": "project",
+    "image": "/projects/labarre-social/detail-1.webp"
+  },
+  {
+    "slug": "forma",
+    "name": "A little more intention.",
+    "label": "Forma / Website design study",
+    "category": "Web & UI",
+    "desc": "An original website study pairing natural green tones, editorial typography, and a clear, responsive page structure.",
+    "focus": "Visual hierarchy, responsive layout, and an editorial direction within the Artiosis color family.",
+    "details": [
+      "Desktop experience",
+      "Mobile experience"
+    ],
+    "featured": false,
+    "kind": "design-study",
+    "image": "/projects/forma/cover.webp",
+    "prototype": "/prototypes/forma.html"
+  },
+  {
+    "slug": "relay",
+    "name": "More focus. Less friction.",
+    "label": "Relay / AI workspace study",
+    "category": "AI & Automation",
+    "desc": "An interactive AI workspace interface exploring a calmer way to organize priorities, prompts, and daily work.",
+    "focus": "Clear priorities, focused conversations, and a structured workspace. All interactions and data are illustrative.",
+    "details": [
+      "Desktop workspace",
+      "Mobile workspace"
+    ],
+    "featured": false,
+    "kind": "design-study",
+    "image": "/projects/relay/cover.webp",
+    "prototype": "/prototypes/relay.html"
+  }
+]
