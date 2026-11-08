@@ -1,26 +1,49 @@
-# Artiosis — Digital Solutions
+# Artiosis — Creative Technology Agency
 
-Responsive Next.js 15 / React 19 / TypeScript agency website. Dark glassmorphism with the existing Artiosis teal `#096162`.
+Turning ambitious ideas into digital experiences.
 
-## Run
+A responsive agency website that brings **Web Experiences**, **AI & Automation**, and **Creative Solutions** together in one dark, teal-accented identity.
+
+[View the live website](https://artiosis-two.vercel.app/) · [Explore the packages](https://artiosis-two.vercel.app/#pricing)
+
+## Project showcase
+
+### First impression & expertise
+
+The homepage pairs a bold headline and animated orbital artwork with an interactive showcase of the agency’s three core disciplines.
+
+[![Artiosis homepage hero and interactive services showcase](screenshots/artiosis-01-hero-services.webp)](https://artiosis-two.vercel.app/)
+
+### Selected work & clear packages
+
+Real portfolio work, a defined project process, and four packages for websites, branding, and ongoing social media marketing. Prices switch between USD and GBP.
+
+[![Artiosis Labarre portfolio project, delivery process, and four service packages](screenshots/artiosis-02-work-packages.webp)](https://artiosis-two.vercel.app/#work)
+
+## Features
+
+- Responsive desktop, tablet, and mobile layouts.
+- Three interactive service pillars, animated backgrounds, and satin-style button interactions.
+- Labarre portfolio showcase, client testimonials, and expandable FAQs.
+- Four service packages with USD/GBP switching and inquiry selection.
+- Email inquiry preparation, social links, and a floating WhatsApp contact panel.
+- Published Privacy Policy and Terms & Conditions.
+- Search metadata, social sharing image, sitemap, and favicon assets.
+
+## Development
+
+Built with **Next.js 15, React 19, and TypeScript**; hosted on **Vercel**.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Visit http://localhost:3000. For production: `npm run build && npm start`.
+Open [localhost:3000](http://localhost:3000). For a production build:
 
-## Important launch tasks
+```bash
+npm run build
+npm start
+```
 
-- Confirm that `hello@artiosis.com` is the real inbox. The inquiry form currently uses `mailto:` to prepare an email and **does not** submit to a server or store leads.
-- Connect an actual scheduling provider and replace the “Coming soon” booking placeholder.
-- Add a reviewed privacy policy before collecting personal information with a hosted form.
-- Verify ownership/permission for the HustleWise portfolio example; replace the illustrative Future Form concept with real approved work when available.
-- Add real testimonials only after receiving permission and verification. No fictional ratings or reviews are included.
-- Add confirmed social media profiles and a custom OG image / favicon.
-- Test keyboard and screen-reader behavior and run an automated WCAG audit before launch.
-
-## Pages
-
-Single landing page with anchored sections: hero, services, portfolio, approach, credibility statement, FAQ, and contact. More pages can be added using the Next.js App Router.
+The live homepage is `public/artiosis-final.html`, served at `/` through `middleware.ts`. Legal pages and other static assets are in `public/`. The inquiry form opens the visitor’s email application with a prepared message; it does not submit to a server.
