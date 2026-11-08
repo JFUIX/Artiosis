@@ -1,8 +1,10 @@
-# Artiosis — Creative Technology Agency
+# Artiosis | Creative Technology Agency
 
 **Turning ambitious ideas into digital experiences.**
 
 Artiosis brings **Web Experiences**, **AI & Automation**, and **Creative Solutions** together through a responsive agency website with a dark teal identity, animated visuals, and clear contact options.
+
+**Final visual baseline: 9 November 2026.** See [release notes](RELEASE.md).
 
 [Live website](https://artiosis-two.vercel.app/) · [Services](https://artiosis-two.vercel.app/#services) · [Contact](https://artiosis-two.vercel.app/#contact)
 
@@ -12,18 +14,20 @@ Artiosis brings **Web Experiences**, **AI & Automation**, and **Creative Solutio
 
 A bold headline, animated orbital artwork, and an interactive showcase of the agency’s three areas of expertise.
 
-[![Artiosis homepage hero and interactive services showcase](screenshots/artiosis-01-hero-services.webp)](https://artiosis-two.vercel.app/)
+[![Artiosis homepage hero and interactive services showcase](screenshots/artiosis-01-hero-services.webp?v=final-20261109)](https://artiosis-two.vercel.app/)
 
 ### Contact & inquiry
 
 Clickable Email, Instagram, and LinkedIn cards sit alongside a guided project inquiry form. Each card opens its destination directly without repeating the address or username.
 
-[![Artiosis contact cards and project inquiry form](screenshots/artiosis-02-contact-inquiry.webp)](https://artiosis-two.vercel.app/#contact)
+[![Artiosis contact cards and project inquiry form](screenshots/artiosis-02-contact-inquiry.webp?v=final-20261109)](https://artiosis-two.vercel.app/#contact)
 
 ## Features
 
 - Responsive desktop, tablet, and mobile layouts.
 - Interactive service tabs, animated backgrounds, and satin-style button interactions.
+- Four borderless portfolio category cards with hover transitions, arrow controls, and touch swipes.
+- Dedicated Design, Web & UI, Social Media Marketing, and AI & Automation collections, with detailed project pages.
 - Clickable social and email cards, plus a floating WhatsApp contact panel.
 - A project inquiry form that prepares an email in the visitor’s email application.
 - Published [Privacy Policy](https://artiosis-two.vercel.app/privacy-policy.html) and [Terms & Conditions](https://artiosis-two.vercel.app/terms-and-conditions.html).
@@ -43,7 +47,10 @@ The production homepage is a standalone HTML document served through the Next.js
 | `public/privacy-policy.html` | Privacy Policy page |
 | `public/terms-and-conditions.html` | Terms & Conditions page |
 | `public/` | Website images, favicon assets, social-sharing image, sitemap, and robots file |
-| `screenshots/` | Images used in this README and the GitHub profile showcase |
+| `screenshots/` | Final hero/services and contact captures used in this README and the GitHub profile |
+| `content/portfolio.json` | Project content and category assignments |
+| `scripts/build-portfolio.mjs` | Generates portfolio cards, collections, case studies, and sitemap |
+| `public/prototypes/` | Interactive portfolio concepts |
 
 When changing homepage search or sharing metadata, keep the HTML `<head>` and `app/layout.tsx` consistent.
 
@@ -84,7 +91,7 @@ Production URL: [artiosis-two.vercel.app](https://artiosis-two.vercel.app/).
 The homepage displays four category cards with hover previews and manual slide controls. The portfolio hub lives at [`/work.html`](https://artiosis-two.vercel.app/work.html). It links to dedicated Design, Web & UI, Social Media Marketing, and AI & Automation collection pages. Branding and illustration entries share the Design collection.
 
 1. Add project images under `public/projects/<project-slug>/`: `cover.webp` and numbered detail images.
-2. Add an entry to `content/portfolio.json`, including its category, description, detail captions, and image path. Set `featured` to `false` for archive-only projects. Use `kind: "design-study"` for new prototypes.
+2. Add an entry to `content/portfolio.json`, including its category, description, detail captions, and image path. Projects appear in their category collection and the matching homepage slider. Adding a project does not add another homepage card. Use `kind: "design-study"` internally for new prototypes; the cards display their service category.
 3. Run `npm run portfolio` to regenerate the homepage selection, portfolio archive, case-study pages, and sitemap. This also runs automatically before `npm run build`.
 4. Check desktop and mobile layouts before publishing.
 
