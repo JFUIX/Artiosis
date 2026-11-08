@@ -2,9 +2,9 @@
   {
     "slug": "forma",
     "name": "A little more intention.",
-    "label": "Forma / Website design study",
+    "label": "Forma / Web & UI",
     "category": "Web & UI",
-    "desc": "An original website study pairing deep ink tones, warm peach accents, editorial typography, and a responsive page structure.",
+    "desc": "A website experience pairing deep ink tones, warm peach accents, editorial typography, and a responsive page structure.",
     "focus": "Visual hierarchy and responsive layout with an ink-and-peach palette that complements Artiosis without repeating its colors.",
     "details": [
       "Desktop experience",
@@ -294,7 +294,7 @@
   {
     "slug": "relay",
     "name": "More focus. Less friction.",
-    "label": "Relay / AI workspace study",
+    "label": "Relay / AI workspace",
     "category": "AI & Automation",
     "desc": "An interactive AI workspace interface using a midnight-blue foundation, soft lavender accents, and clear daily priorities.",
     "focus": "Clear priorities, focused conversations, and a structured workspace. All interactions and data are illustrative.",

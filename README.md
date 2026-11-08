@@ -81,7 +81,7 @@ Production URL: [artiosis-two.vercel.app](https://artiosis-two.vercel.app/).
 
 ## Adding portfolio projects
 
-The homepage displays up to six featured projects. The portfolio hub lives at [`/work.html`](https://artiosis-two.vercel.app/work.html). It links to dedicated Design, Web & UI, Social Media Marketing, and AI & Automation collection pages. Branding and illustration entries share the Design collection.
+The homepage displays four category cards with hover previews and manual slide controls. The portfolio hub lives at [`/work.html`](https://artiosis-two.vercel.app/work.html). It links to dedicated Design, Web & UI, Social Media Marketing, and AI & Automation collection pages. Branding and illustration entries share the Design collection.
 
 1. Add project images under `public/projects/<project-slug>/`: `cover.webp` and numbered detail images.
 2. Add an entry to `content/portfolio.json`, including its category, description, detail captions, and image path. Set `featured` to `false` for archive-only projects. Use `kind: "design-study"` for new prototypes.
