@@ -3,32 +3,32 @@
   "redirects": [
     {
       "source": "/content-writing",
-      "destination": "/#services",
+      "destination": "/creative-solutions.html",
       "permanent": true
     },
     {
       "source": "/content-writing.html",
-      "destination": "/#services",
+      "destination": "/creative-solutions.html",
       "permanent": true
     },
     {
       "source": "/content-writing/",
-      "destination": "/#services",
+      "destination": "/creative-solutions.html",
       "permanent": true
     },
     {
       "source": "/services/content-writing",
-      "destination": "/#services",
+      "destination": "/creative-solutions.html",
       "permanent": true
     },
     {
       "source": "/services/content-writing.html",
-      "destination": "/#services",
+      "destination": "/creative-solutions.html",
       "permanent": true
     },
     {
       "source": "/services/content-writing/",
-      "destination": "/#services",
+      "destination": "/creative-solutions.html",
       "permanent": true
     },
     {
@@ -104,6 +104,186 @@
     {
       "source": "/portfolio/",
       "destination": "/work.html",
+      "permanent": true
+    },
+    {
+      "source": "/graphic-designing",
+      "destination": "/creative-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/graphic-designing.html",
+      "destination": "/creative-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/graphic-designing/",
+      "destination": "/creative-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/graphic-designing",
+      "destination": "/creative-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/graphic-designing.html",
+      "destination": "/creative-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/graphic-designing/",
+      "destination": "/creative-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/graphic-design",
+      "destination": "/creative-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/graphic-design.html",
+      "destination": "/creative-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/graphic-design/",
+      "destination": "/creative-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/graphic-design",
+      "destination": "/creative-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/graphic-design.html",
+      "destination": "/creative-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/graphic-design/",
+      "destination": "/creative-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/website-development",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/website-development.html",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/website-development/",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/website-development",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/website-development.html",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/website-development/",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/web-development",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/web-development.html",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/web-development/",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/web-development",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/web-development.html",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/web-development/",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/app-development",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/app-development.html",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/app-development/",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/app-development",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/app-development.html",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/app-development/",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/software-development",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/software-development.html",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/software-development/",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/software-development",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/software-development.html",
+      "destination": "/web-experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/services/software-development/",
+      "destination": "/web-experiences.html",
       "permanent": true
     }
   ]
