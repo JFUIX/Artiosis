@@ -12,12 +12,12 @@
   0%, 100% {
     color: #82d9bb;
     opacity: .84;
-    text-shadow: 0 0 2px #82d9bb30;
+    text-shadow: 0 0 7px #82d9bb3d;
   }
   50% {
     color: #b5ffe2;
     opacity: 1;
-    text-shadow: 0 0 4px #a3f5cfcc, 0 0 11px #6fe5b880, 0 0 20px #50cfaa40;
+    text-shadow: 0 0 9px #a3f5cfd9, 0 0 16px #6fe5b88c, 0 0 25px #50cfaa4d;
   }
 }
 
@@ -26,6 +26,6 @@
   .logo > span {
     animation: none !important;
     opacity: 1;
-    text-shadow: 0 0 5px #82d9bb45;
+    text-shadow: 0 0 10px #82d9bb52;
   }
 }
