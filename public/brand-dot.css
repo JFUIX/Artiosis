@@ -29,3 +29,16 @@
     text-shadow: 0 0 10px #82d9bb52;
   }
 }
+
+/* Exact uploaded signature, scaled down to the existing discreet footer credit. */
+.footer-credit-inline {
+  width: 32px;
+  height: 11px;
+  padding: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  vertical-align: middle !important;
+  background: url('/jaffery-signature.jpg') center / contain no-repeat;
+  filter: invert(1);
+  mix-blend-mode: screen;
+}
