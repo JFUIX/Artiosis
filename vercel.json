@@ -1,0 +1,110 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/content-writing",
+      "destination": "/#services",
+      "permanent": true
+    },
+    {
+      "source": "/content-writing.html",
+      "destination": "/#services",
+      "permanent": true
+    },
+    {
+      "source": "/content-writing/",
+      "destination": "/#services",
+      "permanent": true
+    },
+    {
+      "source": "/services/content-writing",
+      "destination": "/#services",
+      "permanent": true
+    },
+    {
+      "source": "/services/content-writing.html",
+      "destination": "/#services",
+      "permanent": true
+    },
+    {
+      "source": "/services/content-writing/",
+      "destination": "/#services",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/about/",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/about-us.html",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/about-us/",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/#services",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/#services",
+      "permanent": true
+    },
+    {
+      "source": "/services/",
+      "destination": "/#services",
+      "permanent": true
+    },
+    {
+      "source": "/projects",
+      "destination": "/work.html",
+      "permanent": true
+    },
+    {
+      "source": "/projects.html",
+      "destination": "/work.html",
+      "permanent": true
+    },
+    {
+      "source": "/projects/",
+      "destination": "/work.html",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio",
+      "destination": "/work.html",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio.html",
+      "destination": "/work.html",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio/",
+      "destination": "/work.html",
+      "permanent": true
+    }
+  ]
+}
