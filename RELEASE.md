@@ -2,7 +2,7 @@
 
 Finalized on 9 November 2026 at the owner’s request.
 
-- Production website: https://artiosis-two.vercel.app/
+- Production website: https://artiosis.com/
 - Website source baseline: `22ef772dfcd27bab7a46778f2f881bf445393845`.
 - Branding: Artiosis, Creative Technology Agency.
 - Tagline: Turning ambitious ideas into digital experiences.
@@ -16,7 +16,7 @@ Finalized on 9 November 2026 at the owner’s request.
 - The inquiry form prepares a message in the visitor’s email application. Direct delivery and automatic acknowledgments are not enabled.
 - Privacy Policy and Terms & Conditions are published.
 - Trustpilot is deferred and is not displayed.
-- The custom-domain connection is still to be coordinated with the domain owner. The production Vercel URL remains the working public address.
+- The custom domain `artiosis.com` was verified and connected on 9 November 2026. The `www` address redirects to the primary domain.
 
 ## Showcase assets
 

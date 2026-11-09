@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-const siteUrl = 'https://artiosis-two.vercel.app';
+const siteUrl = 'https://artiosis.com';
 const title = 'Artiosis | Creative Technology Agency';
 const description = 'Turning ambitious ideas into digital experiences.';
 

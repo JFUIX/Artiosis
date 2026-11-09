@@ -6,7 +6,7 @@ Artiosis brings **Web Experiences**, **AI & Automation**, and **Creative Solutio
 
 **Final visual baseline: 9 November 2026.** See [release notes](RELEASE.md).
 
-[Live website](https://artiosis-two.vercel.app/) · [Services](https://artiosis-two.vercel.app/#services) · [Contact](https://artiosis-two.vercel.app/#contact)
+[Live website](https://artiosis.com/) · [Services](https://artiosis.com/#services) · [Contact](https://artiosis.com/#contact)
 
 ## Project showcase
 
@@ -14,13 +14,13 @@ Artiosis brings **Web Experiences**, **AI & Automation**, and **Creative Solutio
 
 A bold headline, animated orbital artwork, and an interactive showcase of the agency’s three areas of expertise.
 
-[![Artiosis homepage hero and interactive services showcase](screenshots/artiosis-01-hero-services.webp?v=final-20261109)](https://artiosis-two.vercel.app/)
+[![Artiosis homepage hero and interactive services showcase](screenshots/artiosis-01-hero-services.webp?v=final-20261109)](https://artiosis.com/)
 
 ### Contact & inquiry
 
 Clickable Email, Instagram, and LinkedIn cards sit alongside a guided project inquiry form. Each card opens its destination directly without repeating the address or username.
 
-[![Artiosis contact cards and project inquiry form](screenshots/artiosis-02-contact-inquiry.webp?v=final-20261109)](https://artiosis-two.vercel.app/#contact)
+[![Artiosis contact cards and project inquiry form](screenshots/artiosis-02-contact-inquiry.webp?v=final-20261109)](https://artiosis.com/#contact)
 
 ## Features
 
@@ -30,7 +30,7 @@ Clickable Email, Instagram, and LinkedIn cards sit alongside a guided project in
 - Dedicated Design, Web & UI, Social Media Marketing, and AI & Automation collections, with detailed project pages.
 - Clickable social and email cards, plus a floating WhatsApp contact panel.
 - A project inquiry form that prepares an email in the visitor’s email application.
-- Published [Privacy Policy](https://artiosis-two.vercel.app/privacy-policy.html) and [Terms & Conditions](https://artiosis-two.vercel.app/terms-and-conditions.html).
+- Published [Privacy Policy](https://artiosis.com/privacy-policy.html) and [Terms & Conditions](https://artiosis.com/terms-and-conditions.html).
 - Search and social-sharing metadata, favicon assets, a sitemap, and robots directives.
 
 ## Stack & source files
@@ -84,11 +84,11 @@ The form opens a `mailto:` message with the visitor’s project details. The vis
 
 The repository is connected to Vercel. Changes pushed to `main` trigger a production build; they appear on the live website once the deployment is ready.
 
-Production URL: [artiosis-two.vercel.app](https://artiosis-two.vercel.app/).
+Production URL: [artiosis.com](https://artiosis.com/).
 
 ## Adding portfolio projects
 
-The homepage displays four category cards with hover previews and manual slide controls. The portfolio hub lives at [`/work.html`](https://artiosis-two.vercel.app/work.html). It links to dedicated Design, Web & UI, Social Media Marketing, and AI & Automation collection pages. Branding and illustration entries share the Design collection.
+The homepage displays four category cards with hover previews and manual slide controls. The portfolio hub lives at [`/work.html`](https://artiosis.com/work.html). It links to dedicated Design, Web & UI, Social Media Marketing, and AI & Automation collection pages. Branding and illustration entries share the Design collection.
 
 1. Add project images under `public/projects/<project-slug>/`: `cover.webp` and numbered detail images.
 2. Add an entry to `content/portfolio.json`, including its category, description, detail captions, and image path. Projects appear in their category collection and the matching homepage slider. Adding a project does not add another homepage card. Use `kind: "design-study"` internally for new prototypes; the cards display their service category.
