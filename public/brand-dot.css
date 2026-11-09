@@ -1,0 +1,31 @@
+.logo > b,
+.logo > span {
+  animation: artiosis-dot-glow 4.8s ease-in-out infinite;
+}
+
+.footbrand .logo > b,
+.footbrand .logo > span {
+  animation-delay: 1.2s;
+}
+
+@keyframes artiosis-dot-glow {
+  0%, 100% {
+    color: #82d9bb;
+    opacity: .84;
+    text-shadow: 0 0 2px #82d9bb30;
+  }
+  50% {
+    color: #b5ffe2;
+    opacity: 1;
+    text-shadow: 0 0 4px #a3f5cfcc, 0 0 11px #6fe5b880, 0 0 20px #50cfaa40;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo > b,
+  .logo > span {
+    animation: none !important;
+    opacity: 1;
+    text-shadow: 0 0 5px #82d9bb45;
+  }
+}
