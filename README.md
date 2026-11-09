@@ -4,7 +4,7 @@
 
 Artiosis brings **Web Experiences**, **AI & Automation**, and **Creative Solutions** together through a responsive agency website with a dark teal identity, animated visuals, and clear contact options.
 
-**Final visual baseline: 9 November 2026.** See [release notes](RELEASE.md).
+**Live on [artiosis.com](https://artiosis.com/).** Final visual baseline: 9 November 2026. See [release notes](RELEASE.md).
 
 [Live website](https://artiosis.com/) · [Services](https://artiosis.com/#services) · [Contact](https://artiosis.com/#contact)
 
@@ -25,7 +25,7 @@ Clickable Email, Instagram, and LinkedIn cards sit alongside a guided project in
 ## Features
 
 - Responsive desktop, tablet, and mobile layouts.
-- Interactive service tabs, animated backgrounds, and satin-style button interactions.
+- Interactive service tabs, animated backgrounds, satin-style button interactions, and a soft logo-dot glow.
 - Four borderless portfolio category cards with hover transitions, arrow controls, and touch swipes.
 - Dedicated Design, Web & UI, Social Media Marketing, and AI & Automation collections, with detailed project pages.
 - Clickable social and email cards, plus a floating WhatsApp contact panel.
