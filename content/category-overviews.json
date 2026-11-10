@@ -1,0 +1,118 @@
+{
+  "web-ui": {
+    "intro": "Clear journeys, confident decisions, and digital experiences built around what your customers need to do next.",
+    "focus": [
+      "Customer journeys",
+      "Conversion paths",
+      "Responsive interfaces"
+    ],
+    "caseTitle": "Habit Herbal: website CRO and campaign relaunch",
+    "context": "Habit Herbal, via Advortex. Results from a combined website conversion and Meta advertising project.",
+    "sourceLabel": "Selected team experience \u00b7 Arooj Butt",
+    "sourceUrl": "https://aroojbutt0604.github.io/portfolio/index.html",
+    "stats": [
+      {
+        "value": "50+",
+        "label": "Orders recorded",
+        "detail": "Following the account and website relaunch"
+      },
+      {
+        "value": "~1.5 wks",
+        "label": "Reported result window",
+        "detail": "The period described in the published case"
+      },
+      {
+        "value": "PKR 250",
+        "label": "Cost per website purchase",
+        "detail": "Reported for the accompanying paid campaign"
+      }
+    ]
+  },
+  "ai": {
+    "intro": "Connected tools and purposeful product interfaces that make the next step simpler, from the first conversation to the working day.",
+    "focus": [
+      "Connected workflows",
+      "Inquiry journeys",
+      "AI product interfaces"
+    ],
+    "caseTitle": "BAC Education Consultancy: automated WhatsApp funnel",
+    "context": "BAC Education Consultancy, via Advortex. Paid media connected to an automated WhatsApp and reporting workflow.",
+    "sourceLabel": "Selected team experience \u00b7 Arooj Butt",
+    "sourceUrl": "https://aroojbutt0604.github.io/portfolio/index.html",
+    "stats": [
+      {
+        "value": "500",
+        "label": "Conversations reported",
+        "detail": "In the published WhatsApp funnel case"
+      },
+      {
+        "value": "~1.5 wks",
+        "label": "Reported campaign window",
+        "detail": "A week and a half of activity"
+      },
+      {
+        "value": "4",
+        "label": "Connected funnel stages",
+        "detail": "Click, chat, track, and report"
+      }
+    ]
+  },
+  "design": {
+    "intro": "Recognizable identities and consistent creative that help a business show up clearly, from the first impression to every brand touchpoint.",
+    "focus": [
+      "Brand recognition",
+      "Visual consistency",
+      "Campaign creative"
+    ],
+    "caseTitle": "Quantum Telehealth: brand, content, and launch campaign",
+    "context": "Quantum Telehealth and Quantum Medical Centre, via Hello Success. April figures from a combined brand, content, and marketing campaign.",
+    "sourceLabel": "Selected team experience \u00b7 Arooj Butt",
+    "sourceUrl": "https://aroojbutt0604.github.io/portfolio/index.html",
+    "stats": [
+      {
+        "value": "31,351",
+        "label": "Facebook views",
+        "detail": "Reported for April in the published case"
+      },
+      {
+        "value": "+815.5%",
+        "label": "Instagram reach growth",
+        "detail": "As reported in the campaign overview"
+      },
+      {
+        "value": "11,166",
+        "label": "Unique viewers",
+        "detail": "Reported alongside the April campaign figures"
+      }
+    ]
+  },
+  "social-media": {
+    "intro": "Creative with a clear next step: start conversations, build interest, and connect attention to measurable campaign activity.",
+    "focus": [
+      "Meaningful conversations",
+      "Campaign efficiency",
+      "Lead generation"
+    ],
+    "caseTitle": "Visa consultancy: Meta messaging campaign",
+    "context": "Visa consultancy, 1 to 20 June 2025. The peer median comparison is the benchmark shown for that Meta campaign.",
+    "sourceLabel": "Selected team experience \u00b7 Arooj Butt",
+    "sourceUrl": "https://aroojbutt0604.github.io/portfolio/index.html",
+    "stats": [
+      {
+        "value": "1,129",
+        "label": "Messaging conversations",
+        "detail": "Generated during the reported campaign"
+      },
+      {
+        "value": "Rs38.07",
+        "label": "Cost per conversation",
+        "detail": "Reported campaign spend per conversation"
+      },
+      {
+        "value": "44%",
+        "label": "Below Meta's peer median",
+        "detail": "The comparison shown in that campaign"
+      }
+    ]
+  }
+}

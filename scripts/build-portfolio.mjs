@@ -39,6 +39,9 @@ const groups=[
  {slug:'social-media',name:'Social Media Marketing',title:'Creative made for the feed.',description:'Coordinated social campaigns and branded content systems.',categories:['Social media']},
  {slug:'ai',name:'AI & Automation',title:'Ideas with intelligence.',description:'AI product interfaces, prompt discovery, and interactive workspace studies.',categories:['AI & Automation']}
 ];
+const categoryOverviewData=JSON.parse(read('content/category-overviews.json'));
+const categoryOverviewCSS='<style id="category-outcomes-styles">'+read('scripts/portfolio-overviews.css')+'</style>';
+const categoryOverview=(g)=>{const overview=categoryOverviewData[g.slug];if(!overview||overview.stats.length!==3)throw Error('Missing category overview: '+g.slug);return `<div class="wrap archive-intro category-intro"><a class="category-breadcrumb" href="/work.html">← All categories</a><span class="eyebrow">${escape(g.name)} / Selected work</span><h1>${escape(g.title)}</h1><p class="category-outcome-intro">${escape(overview.intro)}</p><ul class="category-outcome-focus" aria-label="What this work focuses on">${overview.focus.map(x=>`<li>${escape(x)}</li>`).join('')}</ul><p class="category-case-heading">${escape(overview.caseTitle)}</p><dl class="category-result-stats" aria-label="Published case figures">${overview.stats.map(stat=>`<div class="category-result-stat"><dt>${escape(stat.label)}</dt><dd class="category-result-value">${escape(stat.value)}</dd><dd class="category-result-detail">${escape(stat.detail)}</dd></div>`).join('')}</dl><p class="category-result-context">${escape(overview.context)}</p><a class="category-result-source" href="${escape(overview.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escape(overview.sourceLabel)}</a></div>`};
 const navFor=active=>`<nav class="portfolio-filters" aria-label="Portfolio categories"><a class="portfolio-category-link" href="/work.html">All categories</a>${groups.map(g=>`<a class="portfolio-category-link" href="/work-${g.slug}.html"${g.slug===active?' aria-current="page"':''}>${escape(g.name)}</a>`).join('')}</nav>`;
 const categoryCSS='<style>.portfolio-category-link{display:inline-flex;align-items:center;padding:12px 17px;border:1px solid #31564b;border-radius:8px;font-size:13px;color:#c4dbd0;text-decoration:none}.portfolio-category-link[aria-current=page],.portfolio-category-link:hover{background:#a0dfcb;color:#05251d}.portfolio-group-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}.portfolio-group{border:1px solid #31564b;border-radius:16px;background:#082820;overflow:hidden}.portfolio-group>a{display:block;text-decoration:none}.portfolio-group img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}.portfolio-group-copy{padding:26px}.portfolio-group-copy h2{font-size:30px;margin:12px 0 15px}.portfolio-group-copy p{font-size:14px;color:#bdd5c8;line-height:1.8}.portfolio-group-copy .portfolio-link{margin-top:20px}.category-breadcrumb{display:inline-block;margin-bottom:22px;color:#a0dfcb;font-size:13px}@media(max-width:650px){.portfolio-group-grid{grid-template-columns:1fr}.portfolio-category-link{font-size:12px;padding:11px 13px}}</style>';
 const allCards=items.map(card).join('');
@@ -46,12 +49,12 @@ for(const g of groups){
  const entries=items.filter(p=>g.categories.includes(p.category));
  let page=archive.replace('<title>Selected Work & Design Studies | Artiosis</title>',`<title>${escape(g.name)} Projects | Artiosis</title>`)
  .replace('href="https://artiosis.com/work.html"',`href="https://artiosis.com/work-${g.slug}.html"`)
- .replace('<h1>A closer look at<br><span class="accent">what we create.</span></h1>',`<a class="category-breadcrumb" href="/work.html">← All categories</a><h1>${escape(g.title)}</h1>`)
- .replace('Brand identities, digital experiences, and creative explorations. Browse the work, open a case study, or try an interactive design study.',escape(g.description))
+ .replace('<meta name="description" content="Explore Artiosis brand identities, websites, app interfaces, AI design studies, illustration, and social creative.">',`<meta name="description" content="${escape(categoryOverviewData[g.slug].intro)}">`)
+ .replace(/<div class="wrap archive-intro">[\s\S]*?<\/div>/,categoryOverview(g))
  .replace(/<div class="portfolio-filters"[\s\S]*?<\/div>/,navFor(g.slug))
  .replace(`Showing ${items.length} projects`,`Showing ${entries.length} projects`)
  .replace(allCards,entries.map(card).join(''))
- .replace('</head>',categoryCSS+'</head>');
+ .replace('</head>',categoryCSS+categoryOverviewCSS+'</head>');
  write(`public/work-${g.slug}.html`,page);
 }
 const tiles=groups.map(g=>{const entries=items.filter(p=>g.categories.includes(p.category)),first=entries[0];return `<article class="portfolio-group"><a href="/work-${g.slug}.html"><img src="${first.image}" alt="${escape(g.name)} collection" loading="lazy" width="1200" height="675"><div class="portfolio-group-copy"><span class="eyebrow">${entries.length} projects</span><h2>${escape(g.name)}</h2><p>${escape(g.description)}</p><span class="portfolio-link">Explore ${escape(g.name)} ${arrow}</span></div></a></article>`}).join('');
