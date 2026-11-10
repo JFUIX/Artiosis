@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     images: [{ url: '/artiosis-social.png', alt: 'Artiosis, Turning ambitious ideas into digital experiences.' }],
   },
   icons: {
-    icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }, { url: '/favicon.png', type: 'image/png', sizes: '32x32' }],
+    icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
     apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
   },
 };
