@@ -104,9 +104,27 @@
         "detail": "Generated during the reported campaign"
       },
       {
-        "value": "Rs38.07",
-        "label": "Cost per conversation",
-        "detail": "Reported campaign spend per conversation"
+        "value": "\u00a30.10 / US$0.14",
+        "label": "Approx. cost per conversation",
+        "detail": "GBP and USD equivalents of the campaign cost",
+        "currencies": [
+          {
+            "value": "\u00a30.10",
+            "code": "GBP"
+          },
+          {
+            "value": "US$0.14",
+            "code": "USD"
+          }
+        ],
+        "conversion": {
+          "originalValue": 38.07,
+          "originalCurrency": "PKR",
+          "rateUpdated": "Tue, 10 Nov 2026 00:02:31 +0000",
+          "source": "https://open.er-api.com/v6/latest/PKR",
+          "GBP": 0.002693,
+          "USD": 0.003616
+        }
       },
       {
         "value": "44%",
