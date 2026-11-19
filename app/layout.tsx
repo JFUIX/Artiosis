@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import './globals.css';
 
 const siteUrl = 'https://artiosis.com';
@@ -17,5 +18,13 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="en"><body>{children}</body></html>;
+  return (
+    <html lang="en">
+      <body>
+        {children}
+        <fish-agent agent-id="a6730dc9894f46e6851b3d788b5ed5fd" />
+        <Script src="https://unpkg.com/@fishaudio/agent-widget-embed" strategy="afterInteractive" />
+      </body>
+    </html>
+  );
 }
